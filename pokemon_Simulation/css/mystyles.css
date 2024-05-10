@@ -1,0 +1,41 @@
+/* #id */
+#text-box{
+    position: fixed;
+    text-align: center;
+    padding: 5%;
+    border: 30px ridge black;
+    background-color: white;
+    font-size: 70px; 
+
+}
+.pokemon{
+    position: absolute;
+    border:10px ridge black;
+    background-color:white;
+    text-align: center;
+}
+#pokemon-1{
+    padding:70px 70px;
+    right:70%;
+    top:25%;
+}
+#pokemon-2{
+    padding:70px 70px;
+    right:20%;
+    top:15%;
+}
+#pokemon-hp-bar-1{
+    padding:10px 100px;
+    right:67%;
+    top:50%;
+}
+#pokemon-hp-bar-2{
+    padding:10px 100px;
+    right:17%;
+    top:2.5%;
+}
+#team-1{
+    padding:1px 100px;
+    right:70%;
+    top:40%;
+}

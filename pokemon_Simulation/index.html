@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/pokeball-png-45330.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <title>POKEMON SIMULATION</title>
+</head>
+<body style="background-color:rgb(226, 26, 26);"><!--temp, change later-->
+    <div class="pokemon" id = "pokemon-1">
+        <p>pokemon 1</p>
+    </div>
+    <div class="pokemon" id="team-1">
+        <div class = "pokemon left">
+<!-- https://stackoverflow.com/questions/39738361/how-to-display-images-on-same-line-in-html -->
+<!-- https://www.google.com/search?q=multiple+images+in+one+line+html&sca_esv=577194401&rlz=1C1GCEB_enGB1077GB1077&ei=yNQ7ZZQGnIOFsg-Jha3wCg&oq=multiple+images+in+1+html+&gs_lp=Egxnd3Mtd2l6LXNlcnAiGm11bHRpcGxlIGltYWdlcyBpbiAxIGh0bWwgKgIIATIGEAAYFhgeMgYQABgWGB4yCBAAGIoFGIYDMggQABiKBRiGAzIIEAAYigUYhgNIyIoBUABYzXxwCXgAkAEAmAF1oAHFEaoBBDMzLjG4AQPIAQD4AQGoAhTCAhAQABiKBRjqAhi0AhhD2AEBwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAsICBxAAGIoFGEPCAg0QABiKBRixAxiDARhDwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAcICCBAuGIAEGLEDwgIKEAAYigUYsQMYQ8ICERAuGIMBGMcBGLEDGNEDGIAEwgIREC4YgAQYsQMYgwEYxwEY0QPCAggQLhixAxiABMICCxAuGIoFGLEDGIMBwgIIEAAYigUYkQLCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgIIEC4YigUYkQLCAgsQLhiKBRixAxiRAsICBRAAGIAEwgIFECEYoAHCAggQIRgWGB4YHeIDBBgAIEGIBgG6BgQIARgHugYGCAIQARgK&sclient=gws-wiz-serp&safe=active&ssui=on -->
+        </div>
+        <p>team 1</p>
+    </div>
+    <div class="pokemon" id = "pokemon-hp-bar-1">
+        <p>player 1 hp bar here</p>
+    </div>
+    <div class="pokemon" id = "pokemon-2">
+        <p>pokemon 2</p>
+    </div>
+    <div class="pokemon" id="team-2">
+        <p>team 2</p>
+    </div>
+    <div class="pokemon" id = "pokemon-hp-bar-2">
+        <p>player 2 hp bar here</p>
+    </div>
+    <div class = "fixed-bottom" id = "text-box" >
+        <p>this text should be at the bottom and big</p>
+    </div>
+    <div class = "fixed-bottom" id = "text-box" hidden>
+        <input type = "button" value = "FIGHT"/>
+        <input type = "button" value = "POKEMON"/>
+    </div>
+    <script src="scripts/battle.js"></script>
+</body>
+</html>

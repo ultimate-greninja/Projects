@@ -1,0 +1,8 @@
+height
+weight
+pokedex number(id)
+hp
+attack
+defence
+SP.ATK (special-attack)
+speed

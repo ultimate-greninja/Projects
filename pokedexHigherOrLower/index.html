@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Higher Or Lower</title>
+    <link rel="shortcut icon" href="img/pokeball-png-45330.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+<body>
+    <div id = "title">
+        <p id = "subject">Press Start</p>
+        <div id="score">
+            <p>Score:0</p>
+        </div>
+    </div>
+    <div id = "next">
+        <input type="button" id = "next_css" value="Start">
+    </div>
+    <div id = "pokemon_vs">
+        <div id = "pokemon_current" hidden></div>
+        <img id= "vs" src = "img/vsHoL.png" hidden>
+        <div hidden id = "pokemon_opponent">
+        </div>
+    </div>
+    <div id="box">
+        <input type="button" id = "ButtonH" value="Higher" onclick="Hchoice()" disabled>
+        <input type="button" id = "ButtonL" value="Lower" onclick="Lchoice()" disabled>
+    </div>
+
+    <script src="scripts/HoL.js"></script>
+</body>
+</html>

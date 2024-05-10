@@ -1,0 +1,1 @@
+// https://pokemon.fandom.com/wiki/Damage_Calculation
